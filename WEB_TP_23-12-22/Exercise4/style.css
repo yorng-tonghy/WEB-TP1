@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row-wrapper{
+   display: flex;
+   gap: 5px;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+}
+.column-wrapper .box{
+    margin-top: 5px;
+}
+.box{
+    display: flex;
+    gap: 1rem;
+    width: 8rem;
+    height: 2rem;
+    background-color:rgb(106, 155, 227) ;
+    align-items: center;
+    justify-content: center;
+}

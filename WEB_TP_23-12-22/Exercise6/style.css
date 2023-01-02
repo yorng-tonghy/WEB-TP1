@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.big{
+    background-color: rgb(225, 151, 12);
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.small{
+    display: none;
+}
+@media only screen and (max-width: 350px)  {
+    .big{
+        display: none;
+    }
+    .small{
+        display: block;
+        background-color: rgb(139, 220, 130);
+        width: 5rem;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
